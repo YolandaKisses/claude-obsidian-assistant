@@ -8,7 +8,8 @@
 		{"id":"creative","type":"text","text":"## 50-59 Creative\nDrawings, media, experiments","x":300,"y":350,"width":280,"height":100,"color":"6"},
 		{"id":"cf73486b-70a3-4f12-ba94-e85fbe2ad76a","type":"file","file":"10-19 Projects/11 Active/DataDriver Fund QTrade Vue Architecture.canvas","x":750,"y":50,"width":280,"height":100,"color":"5"},
 		{"id":"projects","type":"text","text":"## 10-19 Projects\nActive builds, archive, skills","x":-80,"y":-400,"width":280,"height":100,"color":"2"},
-		{"id":"0c9f3086-3b3a-44ed-bdf5-035b18390d73","type":"text","text":"## DataDriver Fund QTrade Vue\njd-id: \"11.02\"","x":400,"y":-125,"width":280,"height":75,"color":"2"}
+		{"id":"0c9f3086-3b3a-44ed-bdf5-035b18390d73","type":"text","text":"## DataDriver Fund QTrade Vue\njd-id: \"11.02\"","x":400,"y":-125,"width":280,"height":75,"color":"2"},
+		{"id":"python-project","type":"text","text":"## DataDriver Fund QTrade Python\njd-id: \"11.03\"","x":400,"y":0,"width":280,"height":75,"color":"2"}
 	],
 	"edges":[
 		{"id":"e1","fromNode":"center","fromSide":"left","toNode":"system","toSide":"right"},
@@ -18,6 +19,7 @@
 		{"id":"e5","fromNode":"center","fromSide":"left","toNode":"tracking","toSide":"right"},
 		{"id":"e6","fromNode":"center","fromSide":"right","toNode":"creative","toSide":"left"},
 		{"id":"c243f03e-93c3-4afd-9ab5-b03a2f5fe647","fromNode":"projects","fromSide":"bottom","toNode":"0c9f3086-3b3a-44ed-bdf5-035b18390d73","toSide":"top"},
-		{"id":"957e141f-fd02-479d-8138-4e15e404d690","fromNode":"0c9f3086-3b3a-44ed-bdf5-035b18390d73","fromSide":"right","toNode":"cf73486b-70a3-4f12-ba94-e85fbe2ad76a","toSide":"left","label":"架构"}
+		{"id":"957e141f-fd02-479d-8138-4e15e404d690","fromNode":"0c9f3086-3b3a-44ed-bdf5-035b18390d73","fromSide":"right","toNode":"cf73486b-70a3-4f12-ba94-e85fbe2ad76a","toSide":"left","label":"架构"},
+		{"id":"e-python","fromNode":"projects","fromSide":"bottom","toNode":"python-project","toSide":"top"}
 	]
 }
