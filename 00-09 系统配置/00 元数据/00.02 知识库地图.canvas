@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"system","type":"text","text":"## 00-09 System\n原数据，模版库","x":-500,"y":-250,"width":280,"height":100,"color":"0"},
+		{"id":"writing","type":"text","text":"## 20-29 Writing\n文章创作，临时笔记","x":-500,"y":100,"width":280,"height":100,"color":"3"},
+		{"id":"tracking","type":"text","text":"## 40-49 Tracking\n待办事项","x":-500,"y":350,"width":280,"height":100,"color":"4"},
+		{"id":"cf73486b-70a3-4f12-ba94-e85fbe2ad76a","type":"file","file":"10-19 项目管理区/11 进行中/DataDriver Fund QTrade Vue Architecture.canvas","x":750,"y":50,"width":280,"height":100,"color":"5"},
+		{"id":"projects","type":"text","text":"## 10-19 Projects\n进行中，已归档，技术研究","x":-80,"y":-400,"width":280,"height":100,"color":"2"},
+		{"id":"0c9f3086-3b3a-44ed-bdf5-035b18390d73","type":"text","text":"## DataDriver Fund QTrade Vue\njd-id: \"11.02\"","x":400,"y":-125,"width":280,"height":75,"color":"2"},
+		{"id":"python-project","type":"text","text":"## DataDriver Fund QTrade Python\njd-id: \"11.04\"","x":400,"y":0,"width":280,"height":75,"color":"2"},
+		{"id":"ddalg-project","type":"text","text":"## DataDriver Fund DDAlg PingAn Vue\njd-id: \"11.03\"","x":400,"y":125,"width":280,"height":75,"color":"2"},
+		{"id":"python-arch","type":"file","file":"10-19 项目管理区/11 进行中/DataDriver Fund QTrade Python Architecture.canvas","x":750,"y":175,"width":280,"height":100,"color":"5"},
+		{"id":"ddalg-arch","type":"file","file":"10-19 项目管理区/11 进行中/DataDriver Fund DDAlg PingAn Vue Architecture.canvas","x":750,"y":300,"width":280,"height":100,"color":"5"},
+		{"id":"center","type":"text","text":"# Vault","x":0,"y":0,"width":200,"height":80,"color":"0"},
+		{"id":"knowledge","type":"text","text":"## 30-39 Knowledge\n资源汇总","x":260,"y":250,"width":280,"height":100,"color":"5"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"center","fromSide":"left","toNode":"system","toSide":"right"},
+		{"id":"e2","fromNode":"center","fromSide":"right","toNode":"projects","toSide":"left"},
+		{"id":"e3","fromNode":"center","fromSide":"left","toNode":"writing","toSide":"right"},
+		{"id":"e4","fromNode":"center","fromSide":"right","toNode":"knowledge","toSide":"left"},
+		{"id":"e5","fromNode":"center","fromSide":"left","toNode":"tracking","toSide":"right"},
+		{"id":"c243f03e-93c3-4afd-9ab5-b03a2f5fe647","fromNode":"projects","fromSide":"bottom","toNode":"0c9f3086-3b3a-44ed-bdf5-035b18390d73","toSide":"top"},
+		{"id":"957e141f-fd02-479d-8138-4e15e404d690","fromNode":"0c9f3086-3b3a-44ed-bdf5-035b18390d73","fromSide":"right","toNode":"cf73486b-70a3-4f12-ba94-e85fbe2ad76a","toSide":"left","label":"架构"},
+		{"id":"e-python","fromNode":"projects","fromSide":"bottom","toNode":"python-project","toSide":"top"},
+		{"id":"e-python-arch","fromNode":"python-project","fromSide":"right","toNode":"python-arch","toSide":"left","label":"架构"},
+		{"id":"e-ddalg","fromNode":"projects","fromSide":"bottom","toNode":"ddalg-project","toSide":"top"},
+		{"id":"e-ddalg-arch","fromNode":"ddalg-project","fromSide":"right","toNode":"ddalg-arch","toSide":"left","label":"架构"}
+	]
+}
