@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"label-entry","type":"text","text":"# 1. 入口与全局配置\n父项目: [[11.03 DataDriver Fund QTrade Python]]","x":-600,"y":-600,"width":400,"height":100,"color":"1"},
+		{"id":"label-entry","type":"text","text":"# 1. 入口与全局配置\n父项目: [[11.04 DataDriver Fund QTrade Python]]","x":-600,"y":-600,"width":400,"height":100,"color":"1"},
 		{"id":"node-manage","type":"text","text":"### manage.py\nDjango 应用入口","x":-600,"y":-480,"width":180,"height":100,"color":"1"},
 		{"id":"node-settings","type":"text","text":"### settings.py\n全局配置与参数","x":-380,"y":-480,"width":180,"height":100,"color":"1"},
 		{"id":"node-urls","type":"text","text":"### urls.py\n路由总入口","x":-600,"y":-350,"width":180,"height":100,"color":"1"},
