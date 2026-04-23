@@ -4,11 +4,16 @@ project_id: "11.03"
 type: decision
 status: confirmed
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-04-23
 tags:
   - decision
   - newReport
 summary: "ReportRenderer 树表自动识别需收紧条件。"
+related:
+  - "[[10 ReportRenderer 树表误判排查]]"
+  - "[[11 ReportRenderer 树表识别修正]]"
+  - "[[12 新报表模块]]"
+  - "[[23 新报表页面卡]]"
 ---
 
 # 11 ReportRenderer 树表识别收紧决策
@@ -26,3 +31,9 @@ summary: "ReportRenderer 树表自动识别需收紧条件。"
 ## 影响
 - 不修改接口请求和返回结构。
 - 仅调整前端本地判定逻辑。
+
+## 关联节点
+- 问题排查：[[10 ReportRenderer 树表误判排查]]
+- 对应交付：[[11 ReportRenderer 树表识别修正]]
+- 所属模块：[[12 新报表模块]]
+- 页面入口：[[23 新报表页面卡]]

@@ -4,7 +4,7 @@ project_id: "11.03"
 type: bug
 status: confirmed
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-04-23
 tags:
   - bug
   - newReport
@@ -45,4 +45,6 @@ related:
 - 所属模块：[[12 新报表模块]]
 - 决策记录：[[11 ReportRenderer 树表识别收紧决策]]
 - 对应交付：[[11 ReportRenderer 树表识别修正]]
+- 页面入口：[[23 新报表页面卡]]
+- API 映射：[[23 新报表页面-API映射卡]]
 - 关系总览：[[12 关系图谱总览]]

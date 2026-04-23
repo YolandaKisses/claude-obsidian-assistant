@@ -4,7 +4,7 @@ project_id: "11.03"
 type: api-contract
 status: active
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-04-23
 tags:
   - api-contract
   - metricCenter
@@ -12,6 +12,7 @@ summary: "指标中心页面到 API 的映射卡。"
 related:
   - "[[20 指标中心页面卡]]"
   - "[[10 指标中心模块]]"
+  - "[[00 API 契约总览]]"
 ---
 
 # 20 指标中心页面-API映射卡
@@ -51,3 +52,8 @@ related:
 
 ## 变更风险
 - 改本地 `api/index.js` 容易波及整个子模块页面。
+
+## 反查链路
+- 所属模块：[[10 指标中心模块]]
+- 页面入口：[[20 指标中心页面卡]]
+- API 总览：[[00 API 契约总览]]

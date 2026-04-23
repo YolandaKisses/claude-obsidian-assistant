@@ -4,13 +4,15 @@ project_id: "11.03"
 type: api-contract
 status: active
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-04-23
 tags:
   - api-contract
   - dataReport
 summary: "数据上报页面到 API 的映射卡。"
 related:
   - "[[22 数据上报页面卡]]"
+  - "[[11 报表与数据上报模块]]"
+  - "[[00 API 契约总览]]"
 ---
 
 # 22 数据上报页面-API映射卡
@@ -48,3 +50,8 @@ related:
 
 ## 变更风险
 - `customReport*` 系列页面共享接口域，改一个字段可能影响多个页面。
+
+## 反查链路
+- 所属模块：[[11 报表与数据上报模块]]
+- 页面入口：[[22 数据上报页面卡]]
+- API 总览：[[00 API 契约总览]]

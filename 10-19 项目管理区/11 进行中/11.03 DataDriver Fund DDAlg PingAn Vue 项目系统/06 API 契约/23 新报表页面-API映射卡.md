@@ -4,14 +4,16 @@ project_id: "11.03"
 type: api-contract
 status: active
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-04-23
 tags:
   - api-contract
   - newReport
 summary: "新报表页面与本地 API 的映射卡。"
 related:
   - "[[23 新报表页面卡]]"
+  - "[[12 新报表模块]]"
   - "[[10 ReportRenderer 树表误判排查]]"
+  - "[[11 ReportRenderer 树表识别修正]]"
 ---
 
 # 23 新报表页面-API映射卡
@@ -43,3 +45,9 @@ related:
 
 ## 变更风险
 - 改接口字段口径时，要同时验证 `ReportRenderer` 的本地判断逻辑。
+
+## 反查链路
+- 所属模块：[[12 新报表模块]]
+- 页面入口：[[23 新报表页面卡]]
+- 相关问题：[[10 ReportRenderer 树表误判排查]]
+- 对应交付：[[11 ReportRenderer 树表识别修正]]

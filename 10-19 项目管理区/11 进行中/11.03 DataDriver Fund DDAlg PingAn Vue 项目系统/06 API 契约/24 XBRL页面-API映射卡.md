@@ -4,13 +4,15 @@ project_id: "11.03"
 type: api-contract
 status: active
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-04-23
 tags:
   - api-contract
   - xbrl
 summary: "XBRL 页面到 API 的映射卡。"
 related:
   - "[[24 XBRL页面卡]]"
+  - "[[13 XBRL 与控制台模块]]"
+  - "[[00 API 契约总览]]"
 ---
 
 # 24 XBRL页面-API映射卡
@@ -50,3 +52,8 @@ related:
 
 ## 变更风险
 - 同一业务域多个页面复用接口，改字段可能影响查询、导入和监控多个链路。
+
+## 反查链路
+- 所属模块：[[13 XBRL 与控制台模块]]
+- 页面入口：[[24 XBRL页面卡]]
+- API 总览：[[00 API 契约总览]]
