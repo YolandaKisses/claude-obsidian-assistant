@@ -1,5 +1,5 @@
 ---
-project: "DataDriver Fund QTrade Vue"
+project: DataDriver Fund QTrade Vue
 project_id: "11.04"
 type: delivery-card
 status: active
@@ -7,9 +7,9 @@ created: 2026-04-23
 updated: 2026-04-23
 tags:
   - delivery
-summary: "初始化当前仓库的 Obsidian 项目系统。"
+summary: 初始化当前仓库的 Obsidian 项目系统。
 related:
-  - "[[00 首页]]"
+  - "[[10-19 项目管理区/11 进行中/11.04 DataDriver Fund QTrade Vue 项目系统/00 项目首页/00 首页]]"
   - "[[10 独立项目系统初始化决策]]"
 ---
 

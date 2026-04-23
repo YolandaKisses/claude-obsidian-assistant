@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"home","type":"file","file":"10-19 项目管理区/11 进行中/11.04 DataDriver Fund QTrade Vue 项目系统/00 项目首页/00 首页.md","x":0,"y":-420,"width":360,"height":90,"color":"2"},
+		{"id":"business-entry","type":"file","file":"10-19 项目管理区/11 进行中/11.04 DataDriver Fund QTrade Vue 项目系统/05 模块地图/10 模块卡/10 量化交易模块.md","x":0,"y":-260,"width":360,"height":90,"color":"2"},
+		{"id":"stock-pool","type":"text","text":"股票池 / 自选池\nsrc/views/quantitative/stockPool\n/api/selection/stock-pool/*\nAI 股票分析入口","x":-640,"y":-40,"width":360,"height":140,"color":"2"},
+		{"id":"watch-quote","type":"text","text":"关注与实时行情\nsrc/views/quantitative/chanlunyuan\nwatch_stock / stock_quote\n批量行情上限 50 个 symbol","x":-220,"y":-40,"width":360,"height":140,"color":"1"},
+		{"id":"selection-chanlun","type":"text","text":"缠论选股 / 精筛 / K线回测\nsrc/views/quantitative/chanlun\nstock-selection/filter\nrefined_filter\nstock-back/kline / macd\nstock-tangle/get","x":220,"y":-40,"width":380,"height":170,"color":"4"},
+		{"id":"tradingview-ai","type":"text","text":"TradingView 与 AI 分析\nsrc/components/TVChartContainer\nsrc/components/stockAnalysisAI\ntradingview/ai_analysis\ntradingview/ai_history","x":660,"y":-40,"width":380,"height":160,"color":"5"},
+		{"id":"simulation-fund","type":"text","text":"模拟基金\nsrc/views/quantitative/simulationFund\n/api/simulation/fund\nbenchmark/options\nstrategy/options","x":-640,"y":260,"width":360,"height":150,"color":"3"},
+		{"id":"backtest","type":"text","text":"回测结果\nsrc/views/quantitative/backtest\npositions\nposition-timeline\ntrade-records\nsheet1 / sheet2 / sheet3","x":-220,"y":260,"width":360,"height":150,"color":"6"},
+		{"id":"firm-bargain","type":"text","text":"实盘交易\nsrc/views/quantitative/firmBargain\nfirm-bargain/list\ntradeAnalysisDialog\nmarketMonitorDialog","x":220,"y":260,"width":360,"height":150,"color":"1"},
+		{"id":"stock-list","type":"text","text":"股票列表 / 基础资料\nsrc/views/quantitative/stockList\nsrc/views/AI/stock-analysis\n股票基础信息与筛选结果承接","x":660,"y":260,"width":360,"height":150,"color":"2"},
+		{"id":"api-contract","type":"file","file":"10-19 项目管理区/11 进行中/11.04 DataDriver Fund QTrade Vue 项目系统/06 API 契约/20 页面 API 卡/20 量化交易页面-API映射卡.md","x":0,"y":560,"width":420,"height":100,"color":"1"},
+		{"id":"visual-components","type":"file","file":"10-19 项目管理区/11 进行中/11.04 DataDriver Fund QTrade Vue 项目系统/05 模块地图/10 模块卡/13 通用组件模块.md","x":520,"y":560,"width":420,"height":100,"color":"5"},
+		{"id":"backend-services","type":"text","text":"后端业务域\nQTrade Python / selection / simulation / backtest / tradingview\n当前前端通过 /api/selection、/api/simulation、/api/backtest 等接口消费","x":-520,"y":560,"width":460,"height":130,"color":"4"}
+	],
+	"edges":[
+		{"id":"e-home-entry","fromNode":"home","fromSide":"bottom","toNode":"business-entry","toSide":"top","label":"项目业务入口"},
+		{"id":"e-entry-stock-pool","fromNode":"business-entry","fromSide":"bottom","toNode":"stock-pool","toSide":"top","label":"股票池"},
+		{"id":"e-entry-watch","fromNode":"business-entry","fromSide":"bottom","toNode":"watch-quote","toSide":"top","label":"关注/行情"},
+		{"id":"e-entry-selection","fromNode":"business-entry","fromSide":"bottom","toNode":"selection-chanlun","toSide":"top","label":"选股/缠论"},
+		{"id":"e-selection-ai","fromNode":"selection-chanlun","fromSide":"right","toNode":"tradingview-ai","toSide":"left","label":"K线与AI分析"},
+		{"id":"e-stock-watch","fromNode":"stock-pool","fromSide":"right","toNode":"watch-quote","toSide":"left","label":"股票代码/关注"},
+		{"id":"e-watch-selection","fromNode":"watch-quote","fromSide":"right","toNode":"selection-chanlun","toSide":"left","label":"行情数据"},
+		{"id":"e-stock-simulation","fromNode":"stock-pool","fromSide":"bottom","toNode":"simulation-fund","toSide":"top","label":"组合/池"},
+		{"id":"e-selection-backtest","fromNode":"selection-chanlun","fromSide":"bottom","toNode":"backtest","toSide":"top","label":"策略验证"},
+		{"id":"e-backtest-firm","fromNode":"backtest","fromSide":"right","toNode":"firm-bargain","toSide":"left","label":"交易记录"},
+		{"id":"e-selection-stock-list","fromNode":"selection-chanlun","fromSide":"right","toNode":"stock-list","toSide":"left","label":"筛选结果"},
+		{"id":"e-tradingview-components","fromNode":"tradingview-ai","fromSide":"bottom","toNode":"visual-components","toSide":"top","label":"图表/AI组件"},
+		{"id":"e-stock-api","fromNode":"stock-pool","fromSide":"bottom","toNode":"api-contract","toSide":"top","label":"页面API"},
+		{"id":"e-watch-api","fromNode":"watch-quote","fromSide":"bottom","toNode":"api-contract","toSide":"top","label":"页面API"},
+		{"id":"e-selection-api","fromNode":"selection-chanlun","fromSide":"bottom","toNode":"api-contract","toSide":"top","label":"页面API"},
+		{"id":"e-simulation-api","fromNode":"simulation-fund","fromSide":"bottom","toNode":"api-contract","toSide":"top","label":"页面API"},
+		{"id":"e-backtest-api","fromNode":"backtest","fromSide":"bottom","toNode":"api-contract","toSide":"top","label":"页面API"},
+		{"id":"e-firm-api","fromNode":"firm-bargain","fromSide":"bottom","toNode":"api-contract","toSide":"top","label":"页面API"},
+		{"id":"e-api-backend","fromNode":"api-contract","fromSide":"left","toNode":"backend-services","toSide":"right","label":"后端接口域"},
+		{"id":"e-components-pages","fromNode":"visual-components","fromSide":"top","toNode":"tradingview-ai","toSide":"bottom","label":"支撑页面"}
+	]
+}
