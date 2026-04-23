@@ -4,7 +4,7 @@ project_id: "11.03"
 type: page
 status: active
 created: 2026-04-22
-updated: 2026-04-22
+updated: 2026-04-23
 tags:
   - page
   - xbrl
@@ -24,10 +24,7 @@ related:
 - 适用范围：XBRL 主页、数据查询、导入、菜单管理、监控、规则校验。
 - 不适用范围：控制台任务管理页、新报表页。
 
-## 页面中文名
-- XBRL
-
-## 页面路径
+## 入口路径
 - `src/views/xbrl/xbrl.vue`
 - `src/views/xbrl/xbrlDataSearch.vue`
 - `src/views/xbrl/xbrlImport.vue`
@@ -37,6 +34,9 @@ related:
 
 ## 页面职责
 - 承接 XBRL 数据查询、导入、菜单管理、监控与规则校验。
+
+## 关联页面
+- 所属模块：[[13 XBRL 与控制台模块]]
 
 ## 关联 API
 - `src/api/xbrl/*`
@@ -48,5 +48,12 @@ related:
 - 菜单管理字段
 - 监控与规则校验逻辑
 
-## 常见坑
+## 典型问题
 - XBRL 页面看上去独立，但共享同一业务域 API，修改时要注意公共接口影响面。
+
+## 最近更新
+- 2026-04-23：统一到页面卡模板结构，并补齐模块 / API 反查入口。
+
+## 关联节点
+- 所属模块：[[13 XBRL 与控制台模块]]
+- API 映射：[[24 XBRL页面-API映射卡]]
