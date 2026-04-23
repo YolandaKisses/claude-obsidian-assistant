@@ -30,6 +30,14 @@ related:
 - 新报表：`src/views/newReport/api`
 - 控制台：`src/views/control/*/api`
 
+## 页面 -> API 卡
+- [[20 指标中心页面-API映射卡]]
+- [[21 报表配置页面-API映射卡]]
+- [[22 数据上报页面-API映射卡]]
+- [[23 新报表页面-API映射卡]]
+- [[24 XBRL页面-API映射卡]]
+- [[25 控制台页面-API映射卡]]
+
 ## 高价值映射
 - 指标树管理：`src/views/metricCenter/metricTreeManagement/index.vue` -> `src/views/metricCenter/metricTreeManagement/api/index.js`
 - 指标配置：`src/views/metricCenter/metricConfiguration/index.vue` -> `src/views/metricCenter/metricConfiguration/api/index.js`
