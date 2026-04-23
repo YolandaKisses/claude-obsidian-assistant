@@ -1,5 +1,5 @@
 ---
-project: "DataDriver Fund DDAlg PingAn Vue"
+project: DataDriver Fund DDAlg PingAn Vue
 project_id: "11.03"
 type: api-contract
 status: active
@@ -8,11 +8,11 @@ updated: 2026-04-23
 tags:
   - api-contract
   - xbrl
-summary: "XBRL 页面到 API 的映射卡。"
+summary: XBRL 页面到 API 的映射卡。
 related:
   - "[[24 XBRL页面卡]]"
   - "[[13 XBRL 与控制台模块]]"
-  - "[[00 API 契约总览]]"
+  - "[[10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/06 API 契约/00 API 契约总览]]"
 ---
 
 # 24 XBRL页面-API映射卡
@@ -56,4 +56,4 @@ related:
 ## 反查链路
 - 所属模块：[[13 XBRL 与控制台模块]]
 - 页面入口：[[24 XBRL页面卡]]
-- API 总览：[[00 API 契约总览]]
+- API 总览：[[10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/06 API 契约/00 API 契约总览]]

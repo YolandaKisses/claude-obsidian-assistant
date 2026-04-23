@@ -1,5 +1,5 @@
 ---
-project: "DataDriver Fund DDAlg PingAn Vue"
+project: DataDriver Fund DDAlg PingAn Vue
 project_id: "11.03"
 type: api-index
 status: active
@@ -7,12 +7,12 @@ created: 2026-04-22
 updated: 2026-04-23
 tags:
   - api-contract
-summary: "按业务域维护 API 入口和契约说明。"
+summary: 按业务域维护 API 入口和契约说明。
 related:
-  - "[[00 模块地图总览]]"
-  - "[[10 页面与接口入口总览]]"
-  - "[[12 关系图谱总览]]"
-  - "[[13 信息优先级与失效规则]]"
+  - "[[10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/05 模块地图/00 模块地图总览]]"
+  - "[[10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/06 API 契约/10 页面与接口入口总览]]"
+  - "[[10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/03 稳定知识/20 图谱/12 关系图谱总览]]"
+  - "[[10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/03 稳定知识/10 规则/13 信息优先级与失效规则]]"
 ---
 
 # 11.03 API 契约总览
@@ -60,7 +60,7 @@ related:
 - API -> 问题 / 交付：遇到异常分支时，继续查相关问题卡和交付记录。
 
 ## 关联入口
-- 模块地图：[[00 模块地图总览]]
-- 页面映射：[[10 页面与接口入口总览]]
-- 关系总览：[[12 关系图谱总览]]
-- 规则入口：[[13 信息优先级与失效规则]]
+- 模块地图：[[10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/05 模块地图/00 模块地图总览]]
+- 页面映射：[[10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/06 API 契约/10 页面与接口入口总览]]
+- 关系总览：[[10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/03 稳定知识/20 图谱/12 关系图谱总览]]
+- 规则入口：[[10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/03 稳定知识/10 规则/13 信息优先级与失效规则]]

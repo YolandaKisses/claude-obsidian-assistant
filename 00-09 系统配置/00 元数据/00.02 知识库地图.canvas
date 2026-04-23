@@ -1,29 +1,227 @@
 {
-	"nodes":[
-		{"id":"system","type":"text","text":"## 00-09 System\n元数据","x":-760,"y":-300,"width":280,"height":100,"color":"0"},
-		{"id":"writing","type":"text","text":"## 20-29 Writing\n临时笔记","x":-760,"y":0,"width":280,"height":100,"color":"3"},
-		{"id":"tracking","type":"text","text":"## 40-49 Tracking\n待办事项","x":-760,"y":300,"width":280,"height":100,"color":"4"},
-		{"id":"center","type":"text","text":"# Vault","x":-220,"y":0,"width":220,"height":90,"color":"0"},
-		{"id":"projects","type":"text","text":"## 10-19 Projects\n进行中、已归档、技术研究","x":120,"y":-260,"width":320,"height":110,"color":"2"},
-		{"id":"knowledge","type":"text","text":"## 30-39 Knowledge\n资源汇总","x":120,"y":220,"width":320,"height":110,"color":"5"},
-		{"id":"ddalg-project","type":"text","text":"## DataDriver Fund DDAlg PingAn Vue","x":540,"y":-260,"width":320,"height":110,"color":"2"},
-		{"id":"res-frontend","type":"file","file":"30-39 知识仓库/31 资源汇总/31.01 前端开发资源库.md","x":520,"y":180,"width":340,"height":96,"color":"5"},
-		{"id":"res-codex","type":"file","file":"30-39 知识仓库/31 资源汇总/31.02 Codex 开发提示词.md","x":520,"y":300,"width":340,"height":96,"color":"5"},
-		{"id":"res-markitdown","type":"file","file":"30-39 知识仓库/31 资源汇总/31.03 Markitdown 文件处理提示词.md","x":520,"y":420,"width":340,"height":96,"color":"5"},
-		{"id":"project-summary","type":"text","text":"## 12 Project Summaries","x":100,"y":-600,"width":340,"height":110,"color":"6"},
-		{"id":"aliyun-db","type":"file","file":"10-19 项目管理区/12 项目摘要/11.06 阿里云服务器数据库连接信息.md","x":560,"y":-600,"width":360,"height":68,"color":"6"}
+	"nodes": [
+		{
+			"id": "system",
+			"type": "text",
+			"text": "## 00-09 System\n元数据",
+			"x": -760,
+			"y": -300,
+			"width": 280,
+			"height": 100,
+			"color": "0"
+		},
+		{
+			"id": "writing",
+			"type": "text",
+			"text": "## 20-29 Writing\n临时笔记",
+			"x": -760,
+			"y": 0,
+			"width": 280,
+			"height": 100,
+			"color": "3"
+		},
+		{
+			"id": "tracking",
+			"type": "text",
+			"text": "## 40-49 Tracking\n待办事项",
+			"x": -760,
+			"y": 300,
+			"width": 280,
+			"height": 100,
+			"color": "4"
+		},
+		{
+			"id": "center",
+			"type": "text",
+			"text": "# Vault",
+			"x": -220,
+			"y": 0,
+			"width": 220,
+			"height": 90,
+			"color": "0"
+		},
+		{
+			"id": "projects",
+			"type": "text",
+			"text": "## 10-19 Projects\n进行中、已归档、技术研究",
+			"x": 120,
+			"y": -260,
+			"width": 320,
+			"height": 110,
+			"color": "2"
+		},
+		{
+			"id": "knowledge",
+			"type": "text",
+			"text": "## 30-39 Knowledge\n资源汇总",
+			"x": 120,
+			"y": 220,
+			"width": 320,
+			"height": 110,
+			"color": "5"
+		},
+		{
+			"id": "project-summary",
+			"type": "text",
+			"text": "## 12 Project Summaries\n专项资料，不放项目运行上下文",
+			"x": 100,
+			"y": -600,
+			"width": 340,
+			"height": 80,
+			"color": "6"
+		},
+		{
+			"id": "ddalg-home",
+			"type": "file",
+			"file": "10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/00 项目首页/00 首页.md",
+			"x": 540,
+			"y": -420,
+			"width": 420,
+			"height": 90,
+			"color": "2"
+		},
+		{
+			"id": "qtrade-vue-home",
+			"type": "file",
+			"file": "10-19 项目管理区/11 进行中/11.04 DataDriver Fund QTrade Vue 项目系统/00 项目首页/00 首页.md",
+			"x": 540,
+			"y": -300,
+			"width": 420,
+			"height": 90,
+			"color": "2"
+		},
+		{
+			"id": "res-frontend",
+			"type": "file",
+			"file": "30-39 知识仓库/31 资源汇总/31.01 前端开发资源库.md",
+			"x": 520,
+			"y": 180,
+			"width": 340,
+			"height": 96,
+			"color": "5"
+		},
+		{
+			"id": "res-codex",
+			"type": "file",
+			"file": "30-39 知识仓库/31 资源汇总/31.02 Codex 开发提示词.md",
+			"x": 520,
+			"y": 300,
+			"width": 340,
+			"height": 96,
+			"color": "5"
+		},
+		{
+			"id": "res-markitdown",
+			"type": "file",
+			"file": "30-39 知识仓库/31 资源汇总/31.03 Markitdown 文件处理提示词.md",
+			"x": 520,
+			"y": 420,
+			"width": 340,
+			"height": 96,
+			"color": "5"
+		},
+		{
+			"id": "aliyun-db",
+			"type": "file",
+			"file": "10-19 项目管理区/12 项目摘要/11.06 阿里云服务器数据库连接信息.md",
+			"x": 560,
+			"y": -600,
+			"width": 360,
+			"height": 80,
+			"color": "6"
+		}
 	],
-	"edges":[
-		{"id":"e1","fromNode":"center","fromSide":"left","toNode":"system","toSide":"right"},
-		{"id":"e2","fromNode":"center","fromSide":"left","toNode":"writing","toSide":"right"},
-		{"id":"e3","fromNode":"center","fromSide":"left","toNode":"tracking","toSide":"right"},
-		{"id":"e4","fromNode":"center","fromSide":"right","toNode":"projects","toSide":"left"},
-		{"id":"e5","fromNode":"center","fromSide":"right","toNode":"knowledge","toSide":"left"},
-		{"id":"e-project-summary","fromNode":"projects","fromSide":"right","toNode":"project-summary","toSide":"left","label":"摘要"},
-		{"id":"e-ddalg","fromNode":"projects","fromSide":"right","toNode":"ddalg-project","toSide":"left"},
-		{"id":"e-summary-aliyun","fromNode":"project-summary","fromSide":"right","toNode":"aliyun-db","toSide":"left","label":"专项"},
-		{"id":"e-knowledge-frontend","fromNode":"knowledge","fromSide":"right","toNode":"res-frontend","toSide":"left","label":"资源"},
-		{"id":"e-knowledge-codex","fromNode":"knowledge","fromSide":"right","toNode":"res-codex","toSide":"left","label":"资源"},
-		{"id":"e-knowledge-markitdown","fromNode":"knowledge","fromSide":"right","toNode":"res-markitdown","toSide":"left","label":"资源"}
+	"edges": [
+		{
+			"id": "e1",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "system",
+			"toSide": "right"
+		},
+		{
+			"id": "e2",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "writing",
+			"toSide": "right"
+		},
+		{
+			"id": "e3",
+			"fromNode": "center",
+			"fromSide": "left",
+			"toNode": "tracking",
+			"toSide": "right"
+		},
+		{
+			"id": "e4",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "projects",
+			"toSide": "left"
+		},
+		{
+			"id": "e5",
+			"fromNode": "center",
+			"fromSide": "right",
+			"toNode": "knowledge",
+			"toSide": "left"
+		},
+		{
+			"id": "e-project-summary",
+			"fromNode": "projects",
+			"fromSide": "right",
+			"toNode": "project-summary",
+			"toSide": "left",
+			"label": "摘要"
+		},
+		{
+			"id": "e-ddalg-home",
+			"fromNode": "projects",
+			"fromSide": "right",
+			"toNode": "ddalg-home",
+			"toSide": "left",
+			"label": "11.03"
+		},
+		{
+			"id": "e-qtrade-vue-home",
+			"fromNode": "projects",
+			"fromSide": "right",
+			"toNode": "qtrade-vue-home",
+			"toSide": "left",
+			"label": "11.04"
+		},
+		{
+			"id": "e-summary-aliyun",
+			"fromNode": "project-summary",
+			"fromSide": "right",
+			"toNode": "aliyun-db",
+			"toSide": "left",
+			"label": "专项"
+		},
+		{
+			"id": "e-knowledge-frontend",
+			"fromNode": "knowledge",
+			"fromSide": "right",
+			"toNode": "res-frontend",
+			"toSide": "left",
+			"label": "资源"
+		},
+		{
+			"id": "e-knowledge-codex",
+			"fromNode": "knowledge",
+			"fromSide": "right",
+			"toNode": "res-codex",
+			"toSide": "left",
+			"label": "资源"
+		},
+		{
+			"id": "e-knowledge-markitdown",
+			"fromNode": "knowledge",
+			"fromSide": "right",
+			"toNode": "res-markitdown",
+			"toSide": "left",
+			"label": "资源"
+		}
 	]
 }

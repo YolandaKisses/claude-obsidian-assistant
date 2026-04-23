@@ -1,5 +1,5 @@
 ---
-project: "DataDriver Fund DDAlg PingAn Vue"
+project: DataDriver Fund DDAlg PingAn Vue
 project_id: "11.03"
 type: module
 status: active
@@ -9,10 +9,10 @@ tags:
   - module
   - xbrl
   - control
-summary: "XBRL 与控制台类页面入口。"
+summary: XBRL 与控制台类页面入口。
 related:
-  - "[[00 模块地图总览]]"
-  - "[[00 API 契约总览]]"
+  - "[[10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/05 模块地图/00 模块地图总览]]"
+  - "[[10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/06 API 契约/00 API 契约总览]]"
   - "[[24 XBRL页面卡]]"
   - "[[24 XBRL页面-API映射卡]]"
   - "[[25 控制台页面卡]]"
@@ -69,7 +69,7 @@ related:
 - 高价值页面：`todayTaskManage/index.vue`、`historyTaskMonitoring/index.vue`、`platformParameterSet/index.vue`、`dataModelManage/index.vue`
 
 ## 关联节点
-- API 入口：[[00 API 契约总览]]
-- 页面映射：[[10 页面与接口入口总览]]
+- API 入口：[[10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/06 API 契约/00 API 契约总览]]
+- 页面映射：[[10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/06 API 契约/10 页面与接口入口总览]]
 - 页面卡：[[24 XBRL页面卡]]、[[25 控制台页面卡]]
 - 页面 -> API 卡：[[24 XBRL页面-API映射卡]]、[[25 控制台页面-API映射卡]]

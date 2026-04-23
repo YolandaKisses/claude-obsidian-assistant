@@ -1,5 +1,5 @@
 ---
-project: "DataDriver Fund DDAlg PingAn Vue"
+project: DataDriver Fund DDAlg PingAn Vue
 project_id: "11.03"
 type: bug
 status: confirmed
@@ -9,12 +9,12 @@ tags:
   - bug
   - newReport
   - ReportRenderer
-summary: "ReportRenderer 把普通列表误判为树表，导致初始化报错。"
+summary: ReportRenderer 把普通列表误判为树表，导致初始化报错。
 related:
   - "[[12 新报表模块]]"
   - "[[11 ReportRenderer 树表识别收紧决策]]"
   - "[[11 ReportRenderer 树表识别修正]]"
-  - "[[12 关系图谱总览]]"
+  - "[[10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/03 稳定知识/20 图谱/12 关系图谱总览]]"
 ---
 
 # 2026-04-22 ReportRenderer 树表误判排查
@@ -47,4 +47,4 @@ related:
 - 对应交付：[[11 ReportRenderer 树表识别修正]]
 - 页面入口：[[23 新报表页面卡]]
 - API 映射：[[23 新报表页面-API映射卡]]
-- 关系总览：[[12 关系图谱总览]]
+- 关系总览：[[10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/03 稳定知识/20 图谱/12 关系图谱总览]]

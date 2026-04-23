@@ -1,5 +1,5 @@
 ---
-project: "DataDriver Fund DDAlg PingAn Vue"
+project: DataDriver Fund DDAlg PingAn Vue
 project_id: "11.03"
 type: delivery
 status: completed
@@ -8,14 +8,14 @@ updated: 2026-04-23
 tags:
   - delivery
   - newReport
-summary: "修正 ReportRenderer 对普通列表的树表误判。"
+summary: 修正 ReportRenderer 对普通列表的树表误判。
 related:
   - "[[10 ReportRenderer 树表误判排查]]"
   - "[[12 新报表模块]]"
   - "[[11 ReportRenderer 树表识别收紧决策]]"
   - "[[23 新报表页面卡]]"
   - "[[23 新报表页面-API映射卡]]"
-  - "[[12 关系图谱总览]]"
+  - "[[10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/03 稳定知识/20 图谱/12 关系图谱总览]]"
 ---
 
 # 2026-04-22 ReportRenderer 树表识别修正
@@ -51,4 +51,4 @@ related:
 - 决策记录：[[11 ReportRenderer 树表识别收紧决策]]
 - 页面入口：[[23 新报表页面卡]]
 - API 映射：[[23 新报表页面-API映射卡]]
-- 关系总览：[[12 关系图谱总览]]
+- 关系总览：[[10-19 项目管理区/11 进行中/11.03 DataDriver Fund DDAlg PingAn Vue 项目系统/03 稳定知识/20 图谱/12 关系图谱总览]]
